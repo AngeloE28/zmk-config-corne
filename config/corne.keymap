@@ -35,8 +35,8 @@
 // |    CTRL   |    Z    |    X    |    C    |    V    |    B    |                |    N    |    M    |   , (<) |   . (>) |  / (?)  |   ALT    |
      &kp LCTRL   &kp Z     &kp X     &kp C     &kp V     &kp B                      &kp N     &kp M    &kp COMMA  &kp DOT   &kp FSLH  &kp RALT
 // _______________________________________________________________                ______________________________________________________________
-//               (GUI is windows)->|   GUI   | SYMNUM  |   ENT   |                |   SPC   |   BKSP  |   NAVI   | 
-                                    &kp LGUI &mo SYMNUM &kp RET                   &kp SPACE  &kp BSPC   &mo NAVI 
+//               (GUI is windows)->|   GUI   | SYMNUM  |   ENT   |                |  BKSP   |   SPC   |   NAVI   | 
+                                    &kp LGUI &mo SYMNUM &kp RET                    &kp BSPC  &kp SPACE   &mo NAVI 
 //                                 _______________________________                _______________________________
                         >;
                 };
@@ -67,11 +67,11 @@
 // |    SHFT   |         |   HOME  |   END   |   PGUP  |  PGDWN  |                |   LFT   |   DWN   |   UP    |   RGT   |         | PRNT SCN |
      &kp LSHFT    &trans   &kp HOME  &kp END  &kp PG_UP &kp PG_DN                   &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &kp PSCRN
 // _______________________________________________________________                ______________________________________________________________
-// |   BTCLR   |   BT1   |   BT2   |   BT3   |   BT4   |   BT5   |                |  INSRT  |         |         |         | TG MEDIA| TG GAME  |
-   &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp INS    &trans    &trans    &trans &tog MEDIA  &tog GAME
+// |   BTCLR   |   BT1   |   BT2   |   BT3   |   BT4   |   BT5   |                |  INSRT  |   DEL   |         |         | TG MEDIA| TG GAME  |
+   &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp INS   &kp DEL    &trans    &trans &tog MEDIA  &tog GAME
 // _______________________________________________________________                ______________________________________________________________
-//                                 |         |         |   CTRL  |                |   DEL   |         |         |
-                                      &trans    &trans  &kp LCTRL                   &kp DEL    &trans    &trans
+//                                 |         |         |   CTRL  |                |         |         |         |
+                                      &trans    &trans  &kp LCTRL                   &trans     &trans    &trans
 //                                 _______________________________                _______________________________
                         >;
                 };
