@@ -64,8 +64,8 @@
 // |     F1    |    F2   |    F3   |    F4   |    F5   |    F6   |                |    F7   |    F8   |    F9   |   F10   |   F11   |    F12   |
       &kp F1     &kp F2    &kp F3    &kp F4    &kp F5    &kp F6                     &kp F7    &kp F8    &kp F9    &kp F10   &kp F11    &kp F12
 // _______________________________________________________________                ______________________________________________________________
-// |    SHFT   |         |   HOME  |   END   |   PGUP  |  PGDWN  |                |         |   LFT   |   DWN   |    UP   |   RGT   | PRNT SCN |
-     &kp LSHFT    &trans   &kp HOME  &kp END  &kp PG_UP &kp PG_DN                   &trans  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT   &kp PSCRN
+// |    SHFT   |   ALT   |   HOME  |   END   |   PGUP  |  PGDWN  |                |         |   LFT   |   DWN   |    UP   |   RGT   | PRNT SCN |
+     &kp LSHFT  &kp LALT  &kp HOME   &kp END  &kp PG_UP &kp PG_DN                   &trans  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT   &kp PSCRN
 // _______________________________________________________________                ______________________________________________________________
 // |   BTCLR   |   BT1   |   BT2   |   BT3   |   BT4   |   BT5   |                |  INSRT  |   DEL   |         |         | TG MEDIA| TG GAME  |
    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp INS   &kp DEL    &trans    &trans &tog MEDIA  &tog GAME
@@ -88,8 +88,8 @@
 // |    CTRL   |    Z    |    X    |    C    |    V    |    B    |                |    N    |    M    |   , (<) |   . (>) |  / (?)  | Tog Game |
      &kp LCTRL   &kp Z     &kp X     &kp C     &kp V     &kp B                      &kp N     &kp M    &kp COMMA  &kp DOT   &kp FSLH  &tog GAME
 // _______________________________________________________________                ______________________________________________________________
-//                                 |         |   SPC   |   SPC   |                |   ENT   |         |   ALT   |
-                                      &trans  &kp SPACE &kp SPACE                   &kp RET    &trans   &kp RALT
+//                                 |    M    |   SPC   |   SPC   |                |   ENT   |         |   ALT   |
+                                      &kp M   &kp SPACE &kp SPACE                   &kp RET    &trans   &kp RALT
 //                                 _______________________________                _______________________________
                         >;
                 };
