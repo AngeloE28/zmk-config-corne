@@ -85,11 +85,11 @@
 // |    SHFT   |    A    |    S    |    D    |    F    |    G    |                |    H    |    J    |   LFT   |   DWN   |   RGT   |   ' (")  |
       &kp LSHFT  &kp A     &kp S     &kp D     &kp F     &kp G                      &kp H       &kp J  &kp LEFT  &kp DOWN  &kp RIGHT  &kp SQT
 // _______________________________________________________________                ______________________________________________________________
-// |    CTRL   |    Z    |    X    |    C    |    V    |    B    |                |    N    |    M    |   , (<) |   . (>) |  / (?)  | Tog Game |
-     &kp LCTRL   &kp Z     &kp X     &kp C     &kp V     &kp B                      &kp N     &kp M    &kp COMMA  &kp DOT   &kp FSLH  &tog GAME
+// |     4     |    Z    |    X    |    C    |    V    |    B    |                |    N    |    M    |   , (<) |   . (>) |  / (?)  | Tog Game |
+       &kp N4     &kp Z     &kp X     &kp C     &kp V     &kp B                      &kp N     &kp M    &kp COMMA  &kp DOT   &kp FSLH  &tog GAME
 // _______________________________________________________________                ______________________________________________________________
-//                                 |    M    |   ALT   |   SPC   |                |   ENT   |         |   ALT   |
-                                      &kp M   &kp LALT  &kp SPACE                   &kp RET    &trans   &kp RALT
+//                                 |    M    |   CTRL  |   SPC   |                |   ENT   |         |   ALT   |
+                                      &kp M   &kp LCTRL &kp SPACE                   &kp RET    &trans   &kp RALT
 //                                 _______________________________                _______________________________
                         >;
                 };
