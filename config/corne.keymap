@@ -88,8 +88,8 @@
 // |    CTRL   |    Z    |    X    |    C    |    V    |    B    |                |    N    |    M    |   , (<) |   . (>) |  / (?)  | Tog Game |
      &kp LCTRL   &kp Z     &kp X     &kp C     &kp V     &kp B                      &kp N     &kp M    &kp COMMA  &kp DOT   &kp FSLH  &tog GAME
 // _______________________________________________________________                ______________________________________________________________
-//                                 |    M    |   SPC   |   SPC   |                |   ENT   |         |   ALT   |
-                                      &kp M   &kp SPACE &kp SPACE                   &kp RET    &trans   &kp RALT
+//                                 |    M    |   ALT   |   SPC   |                |   ENT   |         |   ALT   |
+                                      &kp M   &kp LALT  &kp SPACE                   &kp RET    &trans   &kp RALT
 //                                 _______________________________                _______________________________
                         >;
                 };
