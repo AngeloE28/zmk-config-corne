@@ -52,8 +52,8 @@
 // |    CTRL   |    6    |    7    |    8    |    9    |    0    |                |    _    |    +    |    ~    |    {    |    }    |   RSHFT  |
      &kp LCTRL   &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                    &kp UNDER  &kp PLUS &kp TILDE  &kp LBRC  &kp RBRC  &kp RSHFT
 // _______________________________________________________________                ______________________________________________________________
-//                                 |   GUI   |   ALT   |   SPC   |                |         |         |         |
-                                    &kp LGUI  &kp LALT  &kp SPACE                    &trans    &trans    &trans
+//                                 |    .    |   ALT   |   SPC   |                |         |         |         |
+                                    &kp DOT  &kp LALT  &kp SPACE                    &trans    &trans    &trans
 //                                 _______________________________                _______________________________
                         >;
                 };
